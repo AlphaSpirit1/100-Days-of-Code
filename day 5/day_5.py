@@ -17,8 +17,5 @@ for letter in range(nr_letters):
 for symbol in range(nr_symbols):
     random_symbols += random.choice(symbols)
 password = random_number+random_letter+random_symbols
-#Eazy Level - Order not randomised:
-#e.g. 4 letter, 2 symbol, 2 number = JduE&!91
-
-
-#Hard Level - Order of characters randomised:
+random_order = password.split()
+print(random_order)
